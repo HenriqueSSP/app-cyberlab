@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CyberLab_Integrador.MainPage">
+    <ScrollView HeightRequest="6000">
+    <StackLayout>
+    <StackLayout>
+            <StackLayout>
+                <!-- Place new controls here 
+                <Image Source="LogoCyberLab.png" WidthRequest="200" Margin="0, 30, 0, 0"/>-->
+             </StackLayout>
+                    
+            <StackLayout>
+                <Image Source="servico1.png" WidthRequest="170" Margin="40"/>
+                
+                <Label Text="Consultoria" TextColor="#ea8fff" FontSize="Title" HorizontalTextAlignment="Center" Margin="10,-20,10,10"/>
+                <Label Text="Diagnóstico, projeto e implementação, com profisionais capacitados e experientes, por meio de visitas técnicas programadas para poder te atender da melhor forma possível."
+                       Margin="45,-10" FontSize="18" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Image Source="servico2.png" WidthRequest="170" Margin="40"/>
+
+                <Label Text="Manutenção" TextColor="#ea8fff" FontSize="Title" HorizontalTextAlignment="Center" Margin="10,-20,10,10"/>
+                    <Label Text="De reparos pontuais a implementação de uma nova infraestrutura. A equipe CyberLab está sempre pronta para atender demandas emergenciais ou projetos de longo prazo de informática e tecnologia."
+                       Margin="45,-10" FontSize="18" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+
+
+                <StackLayout>
+                    <Image Source="servico3.png" WidthRequest="170" Margin="40"/>
+
+                    <Label Text="Desenvolvimento de Sistemas" TextColor="#ea8fff" FontSize="Title" HorizontalTextAlignment="Center" Margin="10,-20,10,10"/>
+                    <Label Text="Desenvolvemos sistemas otimizados para todos os tipos de plataformas, para melhor gestão do seu négocio. Analisamos seus processos juntamento com sua equipe de forma que a solução se adeque as suas rotinas."
+                       Margin="45,-10" FontSize="18" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+                <StackLayout>
+                    <Image Source="servico4.png" WidthRequest="170" Margin="40"/>
+
+                    <Label Text="Infraestrutura" TextColor="#ea8fff" FontSize="Title" HorizontalTextAlignment="Center" Margin="10,-20,10,10"/>
+                    <Label Text="Instalação, configuração e manutenção em redes de computadores, instalamos e configuramos roteadores e switchs. Fazemos a implementação e administração de sistemas operacionais em redes de computadores com o implemento de políticas de segurança."
+                       Margin="45,-10" FontSize="18" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+
+                <Label Text=""/>
+
+            </StackLayout>
+    </StackLayout>
+    </ScrollView>
+
+
+
+</ContentPage>

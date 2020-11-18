@@ -1,0 +1,54 @@
+﻿
+    
+    <?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CyberLab_Integrador.View.Agendamento">
+    <ScrollView HeightRequest="6000">
+        <StackLayout>
+            <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100" />
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="15"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="15"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="15"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="15"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+               
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140"/>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Agendamento" VerticalOptions="Center" HorizontalOptions="Center"
+                       Margin="0,10,0,0" FontSize="Title" FontAttributes="Bold" TextColor="#ea8fff"
+                       Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+            </Grid>
+            </StackLayout>
+
+
+            <StackLayout>
+                <DatePicker MaximumDate="12/31/2020" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <TimePicker  WidthRequest="75" Grid.Column="2" Grid.ColumnSpan="3" />
+
+                <Button x:Name="BtnEnviar" Text="Enviar" Margin="0,10" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="1"/>
+           
+        </StackLayout>
+            <Label Text=""/>
+    </StackLayout>
+    </ScrollView>
+
+
+</ContentPage>
