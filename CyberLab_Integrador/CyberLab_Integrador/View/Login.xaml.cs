@@ -24,7 +24,7 @@ namespace CyberLab_Integrador
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            if (txtLogin.Text.Equals("cb") && (txtSenha.Text.Equals("123")))
+            if (TxtLogin.Text.Equals("cb") && (TxtSenha.Text.Equals("123")))
             {
                 //ativa o ActivityIndicator
                 this.IsBusy = true;
@@ -36,5 +36,7 @@ namespace CyberLab_Integrador
             }
             else { await DisplayAlert("Alerta", "Login ou Senha Errado!", "OK"); }
         }
+
+       
     }
 }

@@ -38,6 +38,18 @@ namespace CyberLab_Integrador
             Detail.Navigation.PushAsync(new agendamento_new());
             IsPresented = false;
         }
+
+        private void ViewCell_Tapped(object sender, EventArgs e)
+        {
+            Detail.Navigation.PushAsync(new Contato());
+            IsPresented = false;
+        }
+
+        private void ViewCell_Tapped_1(object sender, EventArgs e)
+        {
+            Detail.Navigation.PushAsync(new Desenvolvedores());
+            IsPresented = false;
+        }
     }
 
        

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CyberLab_Integrador.MainPage">
+    <ScrollView>
+    <StackLayout>
+        <!--Quem somos-->
+        <Label Text="Quem Somos" TextColor="#ea8fff" FontSize="Title" HorizontalTextAlignment="Center" Margin="0,20,0,0"></Label>
+        <Label Text="Com o propósito de oferecer o melhor serviço para os nossos clientes, foi fundada em 2019 a CyberLab.
+Visando em primeiro lugar o nosso cliente, temos os melhores profissionais que são qualificados para atender e resolver diversos problemas, garantindo assim a satisfação dos clientes.
+Nós buscamos aumentar o desempenho da empresa, agilizando e otimizando o trabalho, obtendo assim o melhor rendimento para a instituição." FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="10,0,10,0"></Label>
+        <Label Text="Atuamos na área de tecnologia, prestando os serviços de:" FontSize="16" HorizontalTextAlignment="Center" Margin="0,10,0,10"></Label>
+        <!--Consultoria-->
+        <Label Text="Consultoria" TextColor="#ea8fff" FontSize="Title" HorizontalTextAlignment="Center" Margin="0,10,0,10"></Label>
+        <Image Source="servico1" Margin="0,0,0,10"></Image>
+        <Label Text="Diagnóstico, projeto e implementação, com profisionais capacitados e experientes, por meio de visitas técnicas programadas para poder te atender da melhor forma posível." FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="10,0,10,0"></Label>
+        <!--Manutenção-->
+        <Label Text="Manutenção" TextColor="#ea8fff" FontSize="Title" HorizontalTextAlignment="Center" Margin="0,10,0,10"></Label>
+        <Image Source="servico2" Margin="0,0,0,10"></Image>
+        <Label Text="De reparos pontuais a implementação de uma nova infraestrutura. A equipe CyberLab está sempre pronta para atender demandas emergenciais ou projetos de longo prazo de informática e tecnologia." FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="10,0,10,0"></Label>
+        <!--Desenvolvimento de Sistemas-->
+        <Label Text="Desenvolvimento de Sistemas" TextColor="#ea8fff" FontSize="Title" HorizontalTextAlignment="Center" Margin="0,10,0,10"></Label>
+        <Image Source="servico3" Margin="0,0,0,10"></Image>
+        <Label Text="Desenvolvemos sistemas otimizados para todos os tipos de plataformas, para melhor gestão do seu négocio. Analisamos seus processos juntamento com sua equipe de forma que a solução se adeque as suas rotinas." FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="10,0,10,0"></Label>
+       <!--Infraestrutura-->
+        <Label Text="Infraestrutura" TextColor="#ea8fff" FontSize="Title" HorizontalTextAlignment="Center" Margin="0,10,0,10"></Label>
+        <Image Source="servico4" Margin="0,0,0,10"></Image>
+        <Label Text="Instalação, configuração e manutenção em redes de computadores, instalamos e configuramos roteadores e switchs. Fazemos a implementação e administração de sistemas operacionais em redes de computadores com o implemento de políticas de segurança." FontSize="16" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="10,0,10,0"></Label>
+
+
+
+
+
+
+
+
+        </StackLayout>
+        
+    </ScrollView>
+
+
+
+</ContentPage>

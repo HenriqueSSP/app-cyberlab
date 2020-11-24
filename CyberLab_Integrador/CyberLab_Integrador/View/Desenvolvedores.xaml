@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CyberLab_Integrador.View.Desenvolvedores">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Image Source="miranha.jpg" Margin="40"></Image>
+            <Image Source="robert.jpg" Margin="40"></Image>
+            <Image Source="lincon.jpg" Margin="40"></Image>
+            <Label Text="Esse é o quadro de funcionários da nossa empresa, sendo composto por 3 integrantes: Henrique, Lincon e Robert. Treinados e capacitados para diversas situações do dia a dia, podendo ajudar o seu negócio da forma mais eficiente e eficaz possível!" HorizontalTextAlignment="Center" FontSize="16"></Label>
+
+"
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+        
+</ContentPage>

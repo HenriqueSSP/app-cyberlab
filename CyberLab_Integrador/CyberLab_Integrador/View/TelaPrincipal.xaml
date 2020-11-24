@@ -55,15 +55,15 @@
                                 </StackLayout>
                             </ViewCell>
 
-                            <ViewCell >
+                            <ViewCell Tapped="ViewCell_Tapped" >
                                 <StackLayout Padding="15,10">
-                                    <Label Text="Page 2" VerticalTextAlignment="Center"/>
+                                    <Label Text="Contato" VerticalTextAlignment="Center"/>
                                 </StackLayout>
                             </ViewCell>
 
-                            <ViewCell>
+                            <ViewCell Tapped="ViewCell_Tapped_1" >
                                 <StackLayout Padding="15,10">
-                                    <Label Text="Page 3" VerticalTextAlignment="Center"/>
+                                    <Label Text="Desenvolvedores" VerticalTextAlignment="Center"/>
                                 </StackLayout>
                             </ViewCell>
                         </TableSection>

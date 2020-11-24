@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace CyberLab_Integrador.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Agendamento : ContentPage
+    public partial class Desenvolvedores : ContentPage
     {
-        public Agendamento()
+        public Desenvolvedores()
         {
             InitializeComponent();
         }

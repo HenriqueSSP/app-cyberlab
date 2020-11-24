@@ -5,52 +5,17 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="CyberLab_Integrador.Login">
-    <ContentPage.Content>
-        <StackLayout>
-            <Grid>
-                <Grid.RowDefinitions>
-                    
-                    <RowDefinition Height="50"/>
-                    
-                    
-                </Grid.RowDefinitions>
-                
-                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="75"/>
-                                                
-                    <ColumnDefinition Width="225"/>
-                    
-                    
-
-                </Grid.ColumnDefinitions>
-                <Image Source="LogoCyberLab.png" Aspect="AspectFill" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="1"/>
-                
-            </Grid>
-
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="15"/>
-                    <RowDefinition Height="auto"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="40"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="37"/>
-
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="30"/>
-                    <ColumnDefinition Width="140"/>
-                    <ColumnDefinition Width="80"/>
-                    <ColumnDefinition Width="80"/>
-                    
-                </Grid.ColumnDefinitions>
-                <Entry x:Name="txtLogin" Placeholder="Login" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3"/>
-                <Entry x:Name="txtSenha" Placeholder="Senha" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" IsPassword="True"/>
-                <Button Text="Entrar" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" BackgroundColor="#2681ff" TextColor="White" Clicked="Button_Clicked"/>
-            </Grid>
+    
+        <StackLayout VerticalOptions="Center" Margin="64">
+            <!--Imagem-->
+        <Image Source="LogoCyberLab.png"></Image>
+        <Entry x:Name="TxtLogin" Placeholder="Usuário"></Entry>
+        <Entry x:Name="TxtSenha" Placeholder="Usuário" IsPassword="True"></Entry>
+        
+            <!--Entrar-->
+        <Button Text="Entrar" Clicked="Button_Clicked"></Button>
             
         </StackLayout>
         
-    </ContentPage.Content>
+    
 </ContentPage>
