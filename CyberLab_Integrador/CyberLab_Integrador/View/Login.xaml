@@ -6,6 +6,8 @@
              mc:Ignorable="d"
              x:Class="CyberLab_Integrador.Login">
     
+    
+    
         <StackLayout VerticalOptions="Center" Margin="64">
             <!--Imagem-->
         <Image Source="LogoCyberLab.png"></Image>
@@ -14,6 +16,7 @@
         
             <!--Entrar-->
         <Button Text="Entrar" Clicked="Button_Clicked"></Button>
+        <Button Text="Banco de Dados" Clicked="Button_Clicked_1"></Button>
             
         </StackLayout>
         

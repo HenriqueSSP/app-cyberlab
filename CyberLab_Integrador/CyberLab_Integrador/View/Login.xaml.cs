@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Android.Widget;
+using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,7 +30,7 @@ namespace CyberLab_Integrador
             {
                 //ativa o ActivityIndicator
                 this.IsBusy = true;
-                // aqui ficaria o seu código 
+                
                 // para fazer a autenticação              
                 Application.Current.MainPage = new NavigationPage(new TelaPrincipal());
 
@@ -37,6 +39,27 @@ namespace CyberLab_Integrador
             else { await DisplayAlert("Alerta", "Login ou Senha Errado!", "OK"); }
         }
 
-       
+        
+        async void Button_Clicked_1(object sender, EventArgs e)
+        {
+            var cmd = Conexao.AbriCon();
+            try
+            {
+                if (cmd.Connection.State == System.Data.ConnectionState.Open)
+                {
+                    string msg = "Passou";
+                }
+                
+               // bool answer = await DisplayAlert("Alert", "Conexão estabelicida com sucesso", "Yes", "No");
+
+            }
+            catch
+
+            {
+
+              //  bool rots = await DisplayAlert("Alert", "Conexão não estabelicida", "Yes", "No");
+            }
+            Conexao.FecharCon(cmd.Connection);
+        }
     }
 }
